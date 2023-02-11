@@ -1,0 +1,29 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliiaMakhovska/node-cli-app.git"
+  },
+  "keywords": [],
+  "author": "YuliiaMakhovska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliiaMakhovska/node-cli-app.git"
+  },
+  "homepage": "https://github.com/YuliiaMakhovska/node-cli-app.git#readme",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
